@@ -44,7 +44,7 @@ TESTS PROVIDED:
 """
 
 try:
-	from .character import Character
+	from .character import Character  # type: ignore
 except ImportError:
 	try:
 		from ..answers.character import Character  # type: ignore
