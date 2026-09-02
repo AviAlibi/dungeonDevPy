@@ -1,3 +1,4 @@
 jupyter # for local testing
 jupyterlab # for local testing
 ruff # for linting
+colorama # for coloring of terminal
